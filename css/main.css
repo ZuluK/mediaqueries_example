@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+}
+ .red {
+  background-color: red;
+}
+
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.black {
+  background-color: black;
+}
+
+@media (max-width:600px) {
+  .blue, .green {
+    display: none;
+  }
+@media (min-width:1000px) {
+  div.box {
+    width: 100%;
+    display: block;
+  }
+}
